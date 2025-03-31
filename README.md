@@ -16,8 +16,7 @@
 - [Demo Video](#demo-video)
 - [Setup Guide](#setup-guide)
 - [Why This Stack?](#why-this-stack)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -25,7 +24,7 @@ This project demonstrates a comprehensive observability solution using modern to
 
 ## Project Structure
 
-
+```
 .
 ├── app.js                 # Main application code
 ├── docker-compose.yaml    # Container orchestration
@@ -34,7 +33,7 @@ This project demonstrates a comprehensive observability solution using modern to
 ├── dashboard_2.json      # Additional dashboard configuration
 ├── images/              # Screenshots and diagrams
 └── logs/               # Application logs
-
+```
 
 ## Demo System
 
@@ -57,7 +56,7 @@ This repository contains a mock implementation designed to demonstrate observabi
   <p><em>Production-Level System Architecture</em></p>
 </div>
 
-Note: The production architecture diagram will be uploaded soon. This will showcase a real-world implementation with:
+Note: The production architecture diagram is what we will be implementing for the production system. This will showcase a real-world implementation with:
 - High availability setup
 - Load balancing
 - Multi-region deployment
@@ -94,11 +93,11 @@ Note: The production architecture diagram will be uploaded soon. This will showc
 ### Log Analysis
 ![Log Analysis](images/image_3.png)
 
-### Performance Monitoring
-![Performance Monitoring](images/image_4.png)
+### System Performance Monitoring
+![Performance Monitoring](images/image_5.png)
 
 ### Error Tracking
-![Error Tracking](images/image_5.png)
+![Error Tracking](images/image_4.png)
 
 ## Demo Video
 [Watch the Demo Video](https://www.youtube.com/watch?v=EfBiiuH6wnw)
@@ -118,7 +117,7 @@ cd Observability-challenge-2025
 
 
 2. Start the services:
-bash
+
 docker-compose up -d
 
 
